@@ -1,0 +1,133 @@
+body{
+font-family:"montserrat-black";}
+
+#title{
+background-color:#E6506A;
+color:white;}
+
+h1{
+font-family:"montserrat-black";
+font-size:3.5rem;
+line-height:1.5em;
+font-weight:bold}
+
+h2{
+font-family:"ubuntu";
+weight:bold;
+line-height:1.5em;}
+
+h3{
+font-family:"ubuntu";}
+.container-fluid{
+padding:3% 15% 9%;}
+
+.navbar{
+padding:0 0 4rem;}
+
+.collapse{
+padding:0 0 0 35rem;}
+
+.nav-item{
+padding:0 15px;}
+
+.nav-link{
+font-family:"Montserrat-Light";
+font-size:1.5rem;
+}
+
+.navbar-brand{
+font-family:"ubuntu";
+font-size:2rem;}
+
+/*download-button*/
+.download-button{
+margin:2rem 2rem 0 0;}
+
+.title-image{
+width:60%;
+transform:rotate(25deg);
+position:absolute;
+right:30%;}
+
+#features{
+position:relative;
+z-index:1;
+background-color:white;
+padding:7% 10%;}
+
+.feature-box{
+text-align:center;
+padding:4.5%;}
+
+.posi{
+}
+
+
+.icon{
+color:#E6506A;
+margin-bottom:1rem;}
+
+.icon:hover{
+color: #ff0000;}
+
+#testimonials{
+padding:7% 15%;
+text-align:center;
+background-color:#E6506A;
+color:white;
+}
+.testimonial-image{
+border-radius:100%;
+width:25%;
+margin:20px}
+
+em{
+font-size:1.3rem;}
+
+#press{
+padding:0% 15%;
+text-align:center;
+background-color:#E6506A;
+color:white;
+}
+.press-image{
+width:20%;
+margin:0px 20px 60px 20px;}
+
+.plan{
+text-style:bold;
+}
+#pricing{
+text-align:center;
+padding:100px;
+}
+
+.pri-col{
+padding:3% 2%;}
+
+#cta{
+background-color:#E6506A;
+color:white;
+padding:7% 15%;
+text-align:center;
+}
+
+.cta-heading{
+font-family:"montserrat-black";
+font-size:3.5rem;
+font-style:italic;}
+
+#footer{
+padding:7% 15%;
+text-align:center;
+}
+
+.social-me{
+margin:20px 10px;}
+
+@media (max-width: 991px) {
+#title{
+text-align:center;}
+.title-image{
+position:static;
+transform:rotate(0);}}
